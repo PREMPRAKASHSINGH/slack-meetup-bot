@@ -1,0 +1,28 @@
+{
+  "name": "meetupbot",
+  "version": "0.0.1",
+  "description": "MeetupBot for Slack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2",
+    "request": "^2.81.0",
+    "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": "https://github.com/MeetupBotTeam/slack-meetup-bot.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "meetupbot",
+    "slackbot",
+    "express"
+  ]
+}
